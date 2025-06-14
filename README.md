@@ -34,7 +34,7 @@ This project is designed to predict forest fires from images using a Convolution
    
     venv\Scripts\activate    # For Windows
    
-    # Or use `source venv/bin/activate` for Linux/Mac
+    Or use `source venv/bin/activate` for Linux/Mac
    
 5. Install Requirements
    
