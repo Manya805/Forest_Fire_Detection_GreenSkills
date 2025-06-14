@@ -6,39 +6,60 @@ This project is designed to predict forest fires from images using a Convolution
 
 🔍 Project Overview
     Goal: Automatically detect whether an image shows a forest fire or not.
+    
     Model: CNN using TensorFlow and Keras.
+    
     Deployment: Streamlit Web App.
-Use case: Early detection of forest fires can help in faster responses and reduce environmental damage.
+        Use case: Early detection of forest fires can help in faster responses and reduce environmental damage.
 
 🧠 Model Details
     ImageDataGenerator is used for data augmentation.
+    
     The CNN model includes layers like:
+    
     Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+    
     Final model is saved as fire_detection_model.h5
 
 🚀 How to Run Locally
 1. Clone the Repository
+   
     git clone https://github.com/Manya805/Forest_Fire_Detection_GreenSkills.git
+   
     cd Forest_Fire_Detection_GreenSkills
-2. Set Up Virtual Environment (Recommended)
+   
+3. Set Up Virtual Environment (Recommended)
+   
     python -m venv venv
+   
     venv\Scripts\activate    # For Windows
+   
     # Or use `source venv/bin/activate` for Linux/Mac
-3. Install Requirements
+   
+5. Install Requirements
+   
     pip install -r requirements.txt
+   
     ✅ Make sure tensorflow, streamlit, numpy, Pillow are installed successfully.
 
-4. Run the App Locally
+7. Run the App Locally
+   
     streamlit run app.py
+   
     After launching, open the local URL (e.g. http://localhost:8501) in your browser.
 
 🌐 Try It Online
+
     You can access the deployed version here:
+    
     👉 [Forest Fire Detection Web App](https://forestfiredetectiongreenskills-ejl8iwbggmxsthvxgq7uqk.streamlit.app) 
 
 🖼️ Using the App
+
     Upload an image (ideally of a forest environment).
+    
     Click Detect Fire.
+    
     Get the result: Forest Fire or No Forest Fire.
 
 📦 Requirements
