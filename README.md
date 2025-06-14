@@ -71,23 +71,36 @@ This project is designed to predict forest fires from images using a Convolution
 
 ❓ Common Issues
 1. ⚠️ Import "tensorflow.keras.*" could not be resolved
+   
     This is a Pylance warning in VS Code.
+   
     If your code runs successfully, you can ignore this warning.
+   
     Ensure your interpreter is set correctly to the virtual environment:
+   
     Go to Command Palette (Ctrl + Shift + P) → Python: Select Interpreter → choose .venv
 
-2. ❌ pip not recognized
+3. ❌ pip not recognized
+   
    Open terminal and run:
+   
    python -m ensurepip
+
    python -m pip install --upgrade pip
 
 🙌 Acknowledgments
+
     TensorFlow
+    
     Keras
+    
     Streamlit
+    
     Dataset sourced from open repositories or custom curated (not uploaded to GitHub due to size)
 [Kaggle Dataset Link](https://www.kaggle.com/datasets/abdelghaniaaba/wildfire-prediction-dataset?resource=download)
 
 📬 Contact
+
 Made with 💡 by Manya Asrani
+
 Feel free to connect or suggest improvements via GitHub!
